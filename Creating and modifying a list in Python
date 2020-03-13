@@ -1,0 +1,97 @@
+# Add Cole’s height to the end of the list heights.
+
+heights = [61, 70, 67, 64, 65]
+
+
+# Add commas (,) to broken_heights so that it runs without errors.
+
+broken_heights = [65, 71, 59, 62]
+
+
+# Add any string to the list ints_and_strings.
+
+ints_and_strings = [1, 2, 3, 'four', 'five', 'eight']
+
+
+# Create a new list called sam_height that contains: The string 'Sam', The number 67
+
+sam_height = ['Sam', 67]
+
+
+# A new student named 'Vik' has joined our class. Vik is 68 inches tall. Add a sublist to heights that represents Vik and his height.
+
+heights = [['Jenny', 61], ['Alexus', 70], ['Sam', 67], ['Grace', 64], ['Vik', 68]]
+
+
+# Create a list of lists called ages where each sublist contains a student’s name and their age. Use the following data: 'Aaron' is 15, 'Dhruti' is 16
+
+ages = [['Aaron', 15], ['Dhruti', 16]]
+
+
+# Use zip to create a new variable called names_and_dogs_names that combines names and dogs_names into a zip object.
+
+names_and_dogs_names = zip(names, dogs_names)
+
+
+# Create an empty list and call it my_empty_list.
+
+my_empty_list = []
+
+
+# Use print to inspect the orders he has received today.
+
+print(orders)
+
+
+# Jiho just received a new order for 'tulips'. Use append to add this string to orders.
+
+orders.append('tulips')
+
+
+# Another order has come in! Use append to add 'roses' to orders.
+
+orders.append('roses')
+
+
+# Jiho is still updating his list of orders. He just received orders for 'lilac' and 'iris'. Use + to create a new list called new_orders that combines orders with the two new orders.
+
+new_orders = orders + ['lilac', 'iris']
+
+
+# Fix the command by inserting brackets ([ and ]) so that it will run without errors.
+
+broken_prices = [5, 3, 4, 5, 4] + [4]
+
+
+# Modify list1 so that it is a range containing numbers starting at 0 and up to, but not including, 9.
+
+list1 = range(9)
+
+
+# Create a range called list2 with the numbers 0 through 7.
+
+list2 = range(8)
+
+
+# Modify the range function that created list1 such that it:Starts at 5, Has a difference of 3 between each item, Ends before 15
+
+list1 = range(5, 15, 3)
+
+
+# Create a range object called list2 that: Starts at 0, Has a difference of 5 between each item, Ends before 40
+
+list2 = range(0, 40, 5)
+
+
+# Start by turning this list of customer first names into a list called first_names. Make sure to enter the names in this order:
+
+first_names = ['Ainsley', 'Ben', 'Chani', 'Depak']
+
+
+# Depak’s age is 42. Use .append() to add 42 to age.
+
+age.append(42)
+
+
+
+
