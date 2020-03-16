@@ -1,0 +1,120 @@
+# Calculate the length of list1 and save it to the variable list1_len.
+
+list1_len = len(list1)
+
+
+# Use print to examine list1_len.
+
+print(list1_len)
+
+
+# Change the range command that generates list1 so that it skips 3 instead of 2 between items.
+
+list1 = range(2, 20, 3)
+
+
+# In the line of code that you pasted, change 8 to a different number so that you don’t get an IndexError.
+
+print(employees[6])
+
+
+# Use print and len to display the length of shopping_list.
+
+print(len(shopping_list))
+
+
+# Get the last element of shopping_list using the -1 index. Save this element to the variable last_element.
+
+last_element = shopping_list[-1]
+
+
+# Now select the element with index 5 and save it to the variable element5.
+
+element5 = shopping_list[5]
+
+
+# Use print to display both element5 and last_element.
+
+print(element5, last_element)
+
+
+# Create a new list called start containing the first 3 elements of suitcase.
+
+start = suitcase[:3]
+
+
+# Create a new list called end containing the final two elements of suitcase.
+
+end = suitcase[-2:]
+
+
+# Use count to determine how many students voted for 'Jake'. Save your answer as jake_votes.
+
+jake_votes = votes.count('Jake')
+
+
+# Use print to examine jake_votes.
+
+print(jake_votes)
+
+
+# Use sort to sort addresses.
+
+sorted_cities = cities.sort()
+
+
+# Use print to see how addresses changed.
+
+print(addresses)
+
+
+# Remove the # in front of the line sort(names). Edit this line so that it runs without producing a NameError.
+
+names.sort()
+
+
+# Use sorted to order games and create a new list called games_sorted.
+
+games_sorted = sorted(games)
+
+
+# Use print to inspect games and games_sorted. How are they different?
+
+print(games_sorted)
+
+
+# inventory is a list of items that are in the warehouse for Bob’s Furniture. How many items are in the warehouse? Save your answer to inventory_len.
+
+inventory_len = len(inventory)
+
+
+# Select the first element in inventory. Save it to the variable first.
+
+first = inventory[0]
+
+
+# Select the last item from inventory and save it to the variable last.
+
+last = inventory[-1]
+
+
+# Select items from the inventory starting at index 2 and up to, but not including, index 6. Save your answer to inventory_2_6.
+
+inventory_2_6 = inventory[2:6]
+
+
+# Select the first 3 items of inventory and save it to the variable first_3.
+
+first_3 = inventory[:3]
+
+
+# How many 'twin bed's are in inventory? Save your answer to twin_beds.
+
+twin_beds = inventory.count('twin bed')
+
+
+# Sort inventory using .sort().
+
+inventory.sort()
+
+
